@@ -4,7 +4,7 @@ import Section from '@/components/Section.astro'
 import { Icon } from 'astro-icon/components'
 import { Image } from 'astro:assets'
 
-const { name, label, image, location, profiles, email } = basics
+const { name, label, image, location, profiles, email, opentoWork } = basics
 const { city, region, address } = location
 ---
 
@@ -18,7 +18,7 @@ const { city, region, address } = location
         {address}, {city}, {region}
       </div>
       <footer class='print'>
-        {email}
+        {opentoWork}
       </footer>
       <footer class='print:hidden'>
         {

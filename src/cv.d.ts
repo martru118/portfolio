@@ -17,6 +17,7 @@ interface Basics {
   name: string;
   label: string;
   image: string;
+  opentoWork: string;
   email: string;
   phone: string;
   url: string;
