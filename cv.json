@@ -18,22 +18,22 @@
     },
     "profiles": [
       {
-        "network": "Bilibili",
-        "icon": "ri:bilibili-line",
-        "username": "MiraHikari",
-        "url": "https://space.bilibili.com/480025691"
-      },
-      {
-        "network": "QQ",
-        "icon": "ri:qq-fill",
-        "username": "Gong_cx",
-        "url": "https://admin.qidian.qq.com/static_proxy/b2b-qq/wpa-link/index.html#/person?uin=3175992523"
-      },
-      {
         "network": "GitHub",
         "icon": "mdi:github",
-        "username": "MiraHikari",
-        "url": "https://github.com/MiraHikari"
+        "username": "martru118",
+        "url": "https://github.com/martru118"
+      },
+      {
+        "network": "LinkedIn",
+        "icon": "mdi:linkedin",
+        "username": "Martin Truong",
+        "url": "https://www.linkedin.com/in/martin-truong-460b69185"
+      },
+      {
+        "network": "Devpost",
+        "icon": "simple-icons:devpost",
+        "username": "martru118",
+        "url": "https://devpost.com/martru118"
       }
     ]
   },
@@ -42,22 +42,8 @@
       "institution": "Ontario Tech University",
       "area": "Bachelor of Science (Honours) - Computer Science, Data Science specialization",
       "studyType": "Full-time student",
-      "startDate": "2021-9-01",
-      "endDate": null
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Success has lived a day in the world.",
-      "date": "2010-04-14",
-      "url": "",
-      "issuer": "Myself"
-    },
-    {
-      "name": "TCCP - Senior Cloud Architecture Engineer",
-      "date": "2023-05-01",
-      "url": "",
-      "issuer": "Tencent Cloud"
+      "startDate": "2018-09-04",
+      "endDate": "2024-12-20"
     }
   ],
   "work": [
@@ -111,8 +97,8 @@
       ],
       "skills": {
         "Python": "mdi:language-python",
-        "Jupyter Notebook": "simple-icons:jupyter",
         "Pandas": "simple-icons:pandas",
+        "Jupyter Notebook": "simple-icons:jupyter",
         "PHP": "simple-icons:php",
         "WordPress": "ri:wordpress-fill"
       }
@@ -135,7 +121,7 @@
         "Worked directly with the CEO to design and develop new website features to facilitate business needs."
       ],
       "achievements": [
-        "Successfully migrated their website from Google Sites to Next.js.",
+        "Successfully migrated their website from Google Sites to Vercel.",
         "Completely rebuilt and designed new layouts for the landing page and catalog.",
         "Built shopping cart components and implemented checkout webhooks to product pages."
       ],
@@ -465,16 +451,6 @@
       ]
     }
   ],
-  "languages": [
-    {
-      "language": "Chinese",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Intermediate"
-    }
-  ],
   "interests": [
     {
       "name": "Technology",
@@ -492,38 +468,35 @@
   ],
   "projects": [
     {
-      "name": "Cloudflare Vmail",
+      "name": "A.Iert",
       "image": {
-        "url": "https://i0.hdslb.com/bfs/article/985e2caa8266dee4b9861ee6a341886d480025691.png@1e_1c.webp",
-        "position": "container",
-        "dark": "https://i0.hdslb.com/bfs/article/4d0bf8a784d22e54e3e61763c361c9ef480025691.png@100q_1e_1c.webp"
+        "url": "http://img.youtube.com/vi/6gU68tji3f4/maxresdefault.jpg",
+        "position": "container"
       },
       "isActive": true,
-      "description": "An open source temporary email tool, fully on Cloudflare. Inspired by oiov/vmail",
+      "description": "An LLM with access to real-time disaster alerts to aid people in their safety and to take precautions.",
       "highlights": [
-        "🎯 Privacy-friendly, no registration required, out-of-the-box",
-        "✨ Support saving passwords and retrieving email addresses",
-        "😄 Support multiple domain name suffixes",
-        "🚀 100% open source, fully based on Cloudflare."
+        "Python script fetches real-time alerts from a weather API",
+        "Cohere powered chatbot provides instant responses to user queries",
+        "Frontend built with Streamlit, designed to be lightweight and accessible"
       ],
-      "url": "https://what-the-fuck.sbs",
-      "github": "https://github.com/MiraHikari/cloudflare-vmail"
+      "url": "https://devpost.com/software/a-lert"
     },
     {
-      "name": "Riddle Town Hunt 2",
+      "name": "Iris",
       "image": {
-        "url": "https://rth2-webstatic.gbclstudio.cn/wp-content/uploads/2024/02/1707656250-76b2b0d2c94824e89a2b8b2c7d1c6afe.png",
-        "position": "background"
+        "url": "https://img.youtube.com/vi/F7nHDTEhbt0/maxresdefault.jpg",
+        "position": "container"
       },
-      "isActive": false,
-      "description": "Public decryption activity in the form of Puzzle Hunt.",
+      "isActive": true,
+      "description": "A full-stack web application that allows for live, translated transcriptions with uses in a wide variety of settings.",
       "highlights": [
-        "👌 More than 1000 people participated, system runs normally",
-        "😮‍ Use headless CMS: WordPress to storage and manage contents, dynamically render page",
-        "😊 Windows-like interface",
-        "💕 Based on Astro"
+        "Frontend built with React and React Router",
+        "Backend built with Python connected to AssemblyAI and Google Translate API",
+        "WebSockets connect frontend to backend",
+        "🏆 Won 4th place and two awards at QHacks 2022"
       ],
-      "url": "https://rth2.gcxstudio.cn/"
+      "url": "https://devpost.com/software/iris-nu91m0"
     }
   ]
 }
