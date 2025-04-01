@@ -8,7 +8,7 @@
     "opentoWork": "🟢 Open to work",
     "email": "martru118@proton.me",
     "url": "https://www.gcxstudio.cn",
-    "summary": "Born in 2010, I primarily work with TypeScript and JavaScript for full-stack development, and enjoy working with various technologies.",
+    "summary": "I'm a full-stack developer working primarily with TypeScript and Next.js. I also have an interest in data science, working in Python.",
     "theme": "red",
     "location": {
       "address": "Toronto",
@@ -39,9 +39,8 @@
   },
   "education": [
     {
-      "institution": "Nanchang No.27 Middle School",
-      "url": "",
-      "area": "Regular Student",
+      "institution": "Ontario Tech University",
+      "area": "Bachelor of Science (Honours) - Computer Science, Data Science specialization",
       "studyType": "Full-time student",
       "startDate": "2021-9-01",
       "endDate": null
@@ -63,70 +62,94 @@
   ],
   "work": [
     {
-      "name": "Sgguo Development Team",
-      "position": "Full-stack Developer",
-      "location_type": "Remote",
-      "location": "CN",
-      "url": "https://github.com/Sgguo-Development-Team",
-      "startDate": "2022-06-01",
-      "endDate": null,
-      "summary": "Developing high-availability full-stack projects.",
+      "name": "Ontario Tech University",
+      "position": "Teaching Assistant",
+      "location_type": "Part time",
+      "location": "Oshawa, ON",
+      "url": null,
+      "startDate": "2024-09-16",
+      "endDate": "2024-12-20",
+      "summary": "Led weekly lab sessions for a first year introductory Python course.",
       "highlights": [
-        "Enhanced internal workflow efficiency by 30%."
+        "Led weekly lab sessions for a first year introductory Python course."
       ],
       "responsibilities": [
-        "Developed and maintained backend services using Node.js and Golang."
+        "Guided students through Python coding exercises and writing testing code with Pytest.",
+        "Held regular office hours to support students with course content, troubleshooting programming and version control challenges.",
+        "Graded and tested code for assignments and exams, providing detailed feedback to help students improve their coding skills and problem-solving abilities."
       ],
       "achievements": [
-        "Implemented a cloud drive and verification code system."
+        "Increased student engagement and improved exam performance."
       ],
       "skills": {
-        "PHP": "simple-icons:php",
-        "Node": "ri:nodejs-line",
-        "Golang": "simple-icons:go",
-        "Next.js": "ri:nextjs-fill",
-        "React": "mdi:react",
-        "SQL": "simple-icons:mysql",
+        "Python": "mdi:language-python",
+        "Pytest": "simple-icons:pytest",
         "Git": "mdi:git",
-        "GitHub": "mdi:github",
-        "NestJS": "simple-icons:nestjs",
-        "Vue": "mdi:vuejs"
+        "GitHub Codespaces": "mdi:github"
       }
     },
     {
-      "name": "Riddle Town Team",
-      "position": "Full-stack Developer",
-      "location_type": "Remote",
-      "location": "CN",
-      "url": "https://rth2.gcxstudio.cn",
-      "startDate": "2023-01-01",
-      "endDate": "2024-02-11",
-      "summary": "Led page design and account systems.",
+      "name": "Vialab",
+      "position": "Lab Coordinator",
+      "location_type": "Work study",
+      "location": "Oshawa, ON",
+      "url": "https://vialab.ca/",
+      "startDate": "2023-09-18",
+      "endDate": "2024-04-19",
+      "summary": "Performed various administrative and IT tasks for a data science research lab.",
       "highlights": [
-        "Completed 95% of project content."
+        "Performed various administrative and IT tasks for a data science research lab, including the maintenance and management of the lab's WordPress website."
       ],
       "responsibilities": [
-        "Developed complete pages.",
-        "Integrated user-facing elements with server-side logic."
+        "Responsible for maintaining and managing the lab's WordPress website.",
+        "Wrote Python scripts with Pandas to assist a professor in cleaning and tabulating research data.",
+        "Collaborated with a colleague on the maintenance and testing of old research projects, fixing bugs, and ensuring that past projects run smoothly."
       ],
       "achievements": [
-        "Ensured smooth project execution."
+        "Successfully migrated the website's codebase to the latest PHP version, adopting modern best practices.",
+        "Increased website pageviews by 30%."
       ],
       "skills": {
-        "HTML": "simple-icons:html5",
-        "CSS": "ri:css3-fill",
-        "JavaScript": "simple-icons:javascript",
-        "TypeScript": "simple-icons:typescript",
-        "Vite": "simple-icons:vite",
-        "Node": "ri:nodejs-line",
-        "Docker": "mdi:docker",
-        "WordPress": "ri:wordpress-fill",
-        "Astro": "simple-icons:astro",
-        "SQL": "simple-icons:mysql",
-        "Tailwind": "mdi:tailwind",
+        "Python": "mdi:language-python",
+        "Jupyter Notebook": "simple-icons:jupyter",
+        "Pandas": "simple-icons:pandas",
+        "PHP": "simple-icons:php",
+        "WordPress": "ri:wordpress-fill"
+      }
+    },
+    {
+      "name": "Dragon Lubes",
+      "position": "Full-stack Web Developer",
+      "location_type": "Internship",
+      "location": "Scarborough, ON",
+      "url": "https://dragonlubes.ca",
+      "startDate": "2022-04-18",
+      "endDate": "2022-12-16",
+      "summary": "Built a full-stack e-commerce website for a local small business.",
+      "highlights": [
+        "Built a full-stack e-commerce website for a local small business, migrating their codebase from Google Sites to Next.js."
+      ],
+      "responsibilities": [
+        "Developed the frontend in Next.js with React and Tailwind CSS.",
+        "Developed the backend with TypeScript, React Query, and GraphQL connected to Shopify's Storefront API.",
+        "Worked directly with the CEO to design and develop new website features to facilitate business needs."
+      ],
+      "achievements": [
+        "Successfully migrated their website from Google Sites to Next.js.",
+        "Completely rebuilt and designed new layouts for the landing page and catalog.",
+        "Built shopping cart components and implemented checkout webhooks to product pages."
+      ],
+      "skills": {
+        "Next.js": "ri:nextjs-fill",
         "React": "mdi:react",
-        "GitHub": "mdi:github",
-        "Git": "mdi:git"
+        "TypeScript": "simple-icons:typescript",
+        "Tailwind CSS": "mdi:tailwind",
+        "Node": "ri:nodejs-line",
+        "GraphQL": "simple-icons:graphql",
+        "Shopify Storefront API": "simple-icons:shopify",
+        "React Query": "simple-icons:reactquery",
+        "Git": "mdi:git",
+        "Vercel": "mdi:triangle"
       }
     }
   ],
