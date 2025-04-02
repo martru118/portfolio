@@ -2,14 +2,13 @@
 import Section from '../Section.astro'
 
 import { education } from '@cv'
-import { certificates } from '@cv'
 ---
 
 <Section className={Astro.props.className} title='Education'>
   <ul class='space-y-4 py-3 print:space-y-0'>
     {
       education.map(
-        ({ institution, startDate, endDate, area, url }) => {
+        ({ institution, startDate, endDate, area }) => {
           const startYear = new Date(startDate).getFullYear()
           const endYear =
             endDate != null ? new Date(endDate).getFullYear() : 'Actual'
@@ -37,7 +36,7 @@ import { certificates } from '@cv'
                   <a
                     target='_blank'
                     class='group flex items-center gap-[6px] text-skin-base decoration-dotted underline-offset-[5px] hover:text-skin-hue hover:underline'
-                    href={url || null}>
+                    href={null}>
                     {institution}
                   </a>
                 </h3>
@@ -53,7 +52,7 @@ import { certificates } from '@cv'
     }
   </ul>
 
-  {
+  { /*
     certificates.length > 0 && (
       <>
         <h4>Certificates</h4>
@@ -98,5 +97,5 @@ import { certificates } from '@cv'
         </ul>
       </>
     )
-  }
+  */}
 </Section>

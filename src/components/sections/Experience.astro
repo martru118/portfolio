@@ -96,10 +96,10 @@ import { Icon } from 'astro-icon/components'
                   )
                   }
                 </ul>
-)}
+                )}
               </div>
             </div>
-        </div>
+          </div>
         </li>
       )
     })}
@@ -121,5 +121,10 @@ import { Icon } from 'astro-icon/components'
 <style>
   li::marker {
     @apply text-skin-hue
+  }
+  @media (max-width: 600px) {
+    br {
+      display: none
+    }
   }
 </style>
