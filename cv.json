@@ -3,12 +3,12 @@
   "pageLayout": "two-column",
   "basics": {
     "name": "Martin Truong",
-    "label": "Junior Full Stack Developer",
+    "label": "Junior Software Engineer",
     "image": "/avatar.jpg",
     "opentoWork": true,
     "email": "martru118@proton.me",
-    "url": "https://www.gcxstudio.cn",
-    "summary": "I'm a full-stack developer working primarily with TypeScript and Next.js. I also have an interest in data science, working in Python.",
+    "url": "https://martru.vercel.app",
+    "summary": "I'm a junior software engineer with over 1.5 years of experience working in full-stack and software development roles. Hire me, I am open to work!",
     "theme": "blue",
     "location": {
       "address": "Toronto",
@@ -126,7 +126,7 @@
         "Built shopping cart components and implemented checkout webhooks to product pages."
       ],
       "skills": {
-        "Next.js": "ri:nextjs-fill",
+        "Next.js": "ri:nextjs-line",
         "React": "mdi:react",
         "TypeScript": "simple-icons:typescript",
         "Tailwind CSS": "mdi:tailwind",
@@ -161,7 +161,7 @@
     },
     {
       "name": "Next.js",
-      "icon": "ri:nextjs-fill",
+      "icon": "ri:nextjs-line",
       "level": "Expert",
       "keywords": [
         "Web Development",
@@ -238,6 +238,17 @@
       ]
     },
     {
+      "name": "GraphQL",
+      "icon": "simple-icons:graphql",
+      "level": "Intermediate",
+      "keywords": [
+        "Databases",
+        "File",
+        "Data Storage",
+        "Backend"
+      ]
+    },
+    {
       "name": "Python",
       "icon": "mdi:language-python",
       "level": "Expert",
@@ -253,16 +264,30 @@
       "level": "Intermediate",
       "keywords": [
         "Python",
+        "Scripting",
         "Data science"
       ]
     },
     {
-      "name": "Streamlit",
-      "icon": "simple-icons:streamlit",
+      "name": "PyTorch",
+      "icon": "simple-icons:pytorch",
       "level": "Intermediate",
       "keywords": [
         "Python",
-        "Data science"
+        "Data science",
+        "AI",
+        "Machine Learning"
+      ]
+    },
+    {
+      "name": "Java",
+      "icon": "ri:java-line",
+      "level": "Expert",
+      "keywords": [
+        "Java",
+        "Scripting",
+        "Mobile/Android",
+        "Backend"
       ]
     },
     {
@@ -276,29 +301,24 @@
       ]
     },
     {
+      "name": "Vercel Functions",
+      "icon": "mdi:triangle",
+      "level": "Intermediate",
+      "keywords": [
+        "PHP",
+        "Fullstack",
+        "Frontend"
+      ]
+    },
+    {
       "name": "Git",
       "icon": "mdi:git",
-      "level": "Intermediate",
+      "level": "Expert",
       "keywords": [
         "Version Control",
         "Collaboration",
         "Source Code"
       ]
-    }
-  ],
-  "interests": [
-    {
-      "name": "Technology",
-      "keywords": [
-        "AI",
-        "Blockchain"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "MiraHikari",
-      "reference": "Reference…"
     }
   ],
   "projects": [

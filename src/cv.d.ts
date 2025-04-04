@@ -17,7 +17,7 @@ interface Basics {
   name: string;
   label: string;
   image: string;
-  opentoWork: string;
+  opentoWork: boolean;
   email: string;
   phone: string;
   url: string;
@@ -103,29 +103,6 @@ interface Education {
   courses: Array<string>;
 }
 
-interface Languages {
-  language: Language;
-  fluency: string;
-}
-
-type Language =
-  | "Spanish"
-  | "English"
-  | "German"
-  | "France"
-  | "Italian"
-  | "Korean"
-  | "Portuguese"
-  | "Chinese"
-  | "Arabic"
-  | "Dutch"
-  | "Finnish"
-  | "Russian"
-  | "Turkish"
-  | "Hindi"
-  | "Bengali"
-  | string;
-
 interface Projects {
   name: string;
   isActive: boolean;
@@ -133,11 +110,6 @@ interface Projects {
   highlights: Highlight;
   url: string;
   github?: string;
-}
-
-interface Interests {
-  name: string;
-  keywords: Array<string>;
 }
 
 interface References {
