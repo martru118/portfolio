@@ -11,6 +11,7 @@ import ThemeSwitch from "@/components/ThemeSwitch.astro";
 
 import CV, { basics } from "@cv";
 import Education from "@/components/sections/Education.astro";
+import Badge from "@/components/Badge.astro";
 const { name, label } = basics;
 
 enum PageLayout {
@@ -29,6 +30,9 @@ enum PageLayout {
     >
       <Hero />
       <About />
+      <Badge />
+    </div>
+    <div class="hidden">
       <ThemeSwitch />
     </div>
     <div
@@ -135,6 +139,11 @@ enum PageLayout {
   } else {
     console.log('Not in Scroll mode')
   }
+</script>
+
+<script>
+  // set dark mode as default
+  localStorage.theme = 'dark';
 </script>
 
 <style>
