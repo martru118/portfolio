@@ -12,7 +12,7 @@ import ThemeSwitch from "@/components/ThemeSwitch.astro";
 import CV, { basics } from "@cv";
 import Education from "@/components/sections/Education.astro";
 import Badge from "@/components/Badge.astro";
-const { name, label } = basics;
+const { name, label, opentoWork } = basics;
 
 enum PageLayout {
   SingleColumn = "single-column",
@@ -30,7 +30,7 @@ enum PageLayout {
     >
       <Hero />
       <About />
-      <Badge />
+      {opentoWork && <Badge />}
     </div>
     <div class="hidden">
       <ThemeSwitch />
