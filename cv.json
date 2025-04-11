@@ -8,7 +8,7 @@
     "opentoWork": true,
     "email": "martru118@proton.me",
     "url": "https://martru.vercel.app",
-    "summary": "I'm a junior software engineer with over 1.5 years of experience working in full-stack and software development roles.",
+    "summary": "A computer science graduate with over 1.5 years of work experience at various internships seeking opportunities to develop my career.",
     "theme": "blue",
     "location": {
       "address": "Toronto",
@@ -71,13 +71,13 @@
         "Python": "mdi:language-python",
         "Pytest": "simple-icons:pytest",
         "Git": "mdi:git",
-        "GitHub Codespaces": "mdi:github"
+        "GitHub Actions": "mdi:github"
       }
     },
     {
       "name": "Vialab",
-      "position": "Lab Coordinator",
-      "location_type": "Work-study",
+      "position": "Laboratory Coordinator",
+      "location_type": "Work study",
       "location": "Oshawa, ON",
       "url": "https://vialab.ca/",
       "startDate": "2023-09-18",
@@ -87,12 +87,12 @@
         "Performed various administrative and IT tasks for a data science research lab, including the maintenance and management of the lab's WordPress website."
       ],
       "responsibilities": [
-        "Responsible for maintaining and managing the lab's WordPress website.",
+        "Responsible for maintaining and managing the lab's WordPress website, taking on a webmaster role.",
         "Wrote Python scripts with Pandas to assist a professor in cleaning and tabulating research data.",
         "Collaborated with a colleague on the maintenance and testing of old research projects, fixing bugs, and ensuring that past projects run smoothly."
       ],
       "achievements": [
-        "Successfully migrated the website's codebase to the latest PHP version, adopting modern best practices.",
+        "Upgraded the website's codebase to the latest PHP version, adopting modern best practices and improving website security.",
         "Increased website pageviews by 30%."
       ],
       "skills": {
@@ -116,8 +116,8 @@
         "Built a full-stack e-commerce website for a local small business, migrating their codebase from Google Sites to Next.js."
       ],
       "responsibilities": [
-        "Developed the frontend in Next.js with React, Tailwind CSS, and shadcn/ui.",
-        "Developed the backend with TypeScript, React Query, and GraphQL connected to Shopify's Storefront API.",
+        "Developed the frontend in Next.js with React, Tailwind CSS, and Headless UI.",
+        "Developed the backend Node.js server with TypeScript, React Query, and GraphQL connected to Shopify's Storefront API.",
         "Worked directly with the CEO to design and develop new website features to facilitate business needs."
       ],
       "achievements": [
@@ -130,11 +130,12 @@
         "React": "mdi:react",
         "TypeScript": "simple-icons:typescript",
         "Tailwind CSS": "mdi:tailwind",
-        "shadcn/ui": "simple-icons:shadcnui",
+        "Headless UI": "simple-icons:headlessui",
         "Node": "ri:nodejs-line",
         "GraphQL": "simple-icons:graphql",
         "Shopify Storefront API": "simple-icons:shopify",
         "React Query": "simple-icons:reactquery",
+        "Prettier": "simple-icons:prettier",
         "Git": "mdi:git",
         "Vercel": "mdi:triangle"
       }
@@ -260,9 +261,19 @@
       ]
     },
     {
+      "name": "Numpy",
+      "icon": "simple-icons:numpy",
+      "level": "Expert",
+      "keywords": [
+        "Python",
+        "Scripting",
+        "Data science"
+      ]
+    },
+    {
       "name": "Pandas",
       "icon": "simple-icons:pandas",
-      "level": "Intermediate",
+      "level": "Expert",
       "keywords": [
         "Python",
         "Scripting",
@@ -306,9 +317,19 @@
       "icon": "mdi:triangle",
       "level": "Intermediate",
       "keywords": [
-        "PHP",
+        "Server",
         "Fullstack",
         "Frontend"
+      ]
+    },
+    {
+      "name": "Google Cloud Platform",
+      "icon": "simple-icons:googlecloud",
+      "level": "Intermediate",
+      "keywords": [
+        "Server",
+        "Fullstack",
+        "API"
       ]
     },
     {
@@ -320,17 +341,26 @@
         "Collaboration",
         "Source Code"
       ]
+    },
+    {
+      "name": "Leetcode",
+      "icon": "simple-icons:leetcode",
+      "level": "Intermediate",
+      "keywords": [
+        "Interview Prep",
+        "Scripting"
+      ]
     }
   ],
   "projects": [
     {
       "name": "A.Iert",
       "image": {
-        "url": "http://img.youtube.com/vi/6gU68tji3f4/maxresdefault.jpg",
+        "url": "https://img.youtube.com/vi/6gU68tji3f4/maxresdefault.jpg",
         "position": "container"
       },
       "isActive": true,
-      "description": "An LLM with access to real-time disaster alerts to aid people in their safety and to take precautions.",
+      "description": "An LLM with access to real-time disaster alerts to aid people in their safety and to take precautions. Developed at HackHive 2025.",
       "highlights": [
         "Python script fetches real-time alerts from a weather API",
         "Cohere powered chatbot provides instant responses to user queries",
@@ -346,12 +376,12 @@
         "position": "container"
       },
       "isActive": true,
-      "description": "A full-stack web application that allows for live, translated transcriptions with uses in a wide variety of settings.",
+      "description": "A full-stack web application that allows for live, translated transcriptions with uses in a wide variety of settings. Developed at QHacks 2022.",
       "highlights": [
         "Frontend built with React and React Router",
         "Backend built with Python connected to AssemblyAI and Google Translate API",
         "WebSockets connect frontend to backend",
-        "🏆 Won 4th place and two awards at QHacks 2022"
+        "🏆 Won 4th place out of 75+ teams and two awards"
       ],
       "url": "https://devpost.com/software/iris-nu91m0",
       "github": null

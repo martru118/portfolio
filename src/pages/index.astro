@@ -87,6 +87,11 @@ enum PageLayout {
 </Layout>
 
 <script>
+  // set dark theme as default
+  localStorage.theme = 'dark';
+</script>
+
+<script>
   const carousel = document.querySelector("#carousel");
 
   if (carousel) {
@@ -139,11 +144,6 @@ enum PageLayout {
   } else {
     console.log('Not in Scroll mode')
   }
-</script>
-
-<script>
-  // set dark mode as default
-  localStorage.theme = 'dark';
 </script>
 
 <style>
