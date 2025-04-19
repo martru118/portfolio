@@ -27,7 +27,7 @@
         "network": "LinkedIn",
         "icon": "mdi:linkedin",
         "username": "Martin Truong",
-        "url": "https://www.linkedin.com/in/martin-truong-460b69185"
+        "url": "https://www.linkedin.com/in/martru118"
       },
       {
         "network": "Devpost",
@@ -50,15 +50,12 @@
     {
       "name": "Ontario Tech University",
       "position": "Teaching Assistant",
-      "location_type": "Part time",
+      "location_type": "Full time",
       "location": "Oshawa, ON",
       "url": null,
       "startDate": "2024-09-16",
       "endDate": "2024-12-20",
       "summary": "Led weekly lab sessions for a first year introductory Python course.",
-      "highlights": [
-        "Led weekly lab sessions for a first year introductory Python course."
-      ],
       "responsibilities": [
         "Guided students through Python coding exercises and writing testing code with Pytest.",
         "Held regular office hours to support students with course content, troubleshooting programming and version control challenges.",
@@ -83,42 +80,38 @@
       "startDate": "2023-09-18",
       "endDate": "2024-04-19",
       "summary": "Performed various administrative and IT tasks for a data science research lab.",
-      "highlights": [
-        "Performed various administrative and IT tasks for a data science research lab, including the maintenance and management of the lab's WordPress website."
-      ],
       "responsibilities": [
-        "Responsible for maintaining and managing the lab's WordPress website, taking on a webmaster role.",
+        "Responsible for maintaining and managing the lab's WordPress website, taking on a website administration role.",
         "Wrote Python scripts with Pandas to assist a professor in cleaning and tabulating research data.",
         "Collaborated with a colleague on the maintenance and testing of old research projects, fixing bugs, and ensuring that past projects run smoothly."
       ],
       "achievements": [
-        "Upgraded the website's codebase to the latest PHP version, adopting modern best practices and improving website security.",
+        "Kept the website's PHP codebase up to date with the latest WordPress releases, adopting modern best practices and improving website security.",
+        "Fixed a JavaScript error that was causing Nginx to crash in a research project.",
         "Increased website pageviews by 30%."
       ],
       "skills": {
+        "WordPress": "ri:wordpress-fill",
         "Python": "mdi:language-python",
         "Pandas": "simple-icons:pandas",
         "Jupyter Notebook": "simple-icons:jupyter",
-        "PHP": "simple-icons:php",
-        "WordPress": "ri:wordpress-fill"
+        "JavaScript": "simple-icons:javascript",
+        "Nginx": "simple-icons:nginx",
+        "PHP": "simple-icons:php"
       }
     },
     {
       "name": "Dragon Lubes",
       "position": "Full-stack Web Developer",
-      "location_type": "Internship",
+      "location_type": "Contract (full time)",
       "location": "Scarborough, ON",
       "url": "https://dragonlubes.ca",
       "startDate": "2022-04-18",
       "endDate": "2022-12-16",
-      "summary": "Built a full-stack e-commerce website for a local small business.",
-      "highlights": [
-        "Built a full-stack e-commerce website for a local small business, migrating their codebase from Google Sites to Next.js."
-      ],
+      "summary": "Independently built a full-stack e-commerce website for a local small business as part of contract work.",
       "responsibilities": [
-        "Developed the frontend in Next.js with React, Tailwind CSS, and Headless UI.",
-        "Developed the backend Node.js server with TypeScript, React Query, and GraphQL connected to Shopify's Storefront API.",
-        "Worked directly with the CEO to design and develop new website features to facilitate business needs."
+        "Developed the frontend in Next.js with React and Tailwind CSS.",
+        "Developed the backend with TypeScript, React Query, and GraphQL connected to Shopify's Storefront API."
       ],
       "achievements": [
         "Successfully migrated their website from Google Sites to Vercel.",
@@ -130,7 +123,6 @@
         "React": "mdi:react",
         "TypeScript": "simple-icons:typescript",
         "Tailwind CSS": "mdi:tailwind",
-        "Headless UI": "simple-icons:headlessui",
         "Node": "ri:nodejs-line",
         "GraphQL": "simple-icons:graphql",
         "Shopify Storefront API": "simple-icons:shopify",
