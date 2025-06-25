@@ -79,7 +79,7 @@
       "url": "https://vialab.ca/",
       "startDate": "2023-09-18",
       "endDate": "2024-04-19",
-      "summary": "Performed various administrative and IT tasks for a data science research lab.",
+      "summary": "Improved workflow for a data science research lab through various administrative and IT tasks.",
       "responsibilities": [
         "Responsible for maintaining and managing the lab's WordPress website, taking on a website administration role.",
         "Wrote Python scripts with Pandas to assist a professor in cleaning and tabulating research data.",
@@ -87,8 +87,7 @@
       ],
       "achievements": [
         "Kept the website's PHP codebase up to date with the latest WordPress releases, adopting modern best practices and improving website security.",
-        "Fixed a JavaScript error that was causing Nginx to crash in a research project.",
-        "Increased website pageviews by 30%."
+        "Fixed a JavaScript error that was causing Nginx to crash in a research project."
       ],
       "skills": {
         "WordPress": "ri:wordpress-fill",
@@ -111,12 +110,14 @@
       "summary": "Independently built a full-stack e-commerce website for a local small business as part of contract work.",
       "responsibilities": [
         "Developed the frontend in Next.js with React and Tailwind CSS.",
-        "Developed the backend with TypeScript, React Query, and GraphQL connected to Shopify's Storefront API."
+        "Developed the backend with TypeScript, React Query, and GraphQL connected to Shopify's Storefront API.",
+        "Onboarded staff on Shopify’s backend CMS to manage inventory."
       ],
       "achievements": [
         "Successfully migrated their website from Google Sites to Vercel.",
         "Completely rebuilt and designed new layouts for the landing page and catalog.",
-        "Built shopping cart components and implemented checkout webhooks to product pages."
+        "Built shopping cart components and implemented checkout webhooks to product pages.",
+        "Improved website SEO to become top Google search result."
       ],
       "skills": {
         "Next.js": "ri:nextjs-line",
@@ -166,6 +167,18 @@
       ]
     },
     {
+      "name": "Astro",
+      "icon": "simple-icons:astro",
+      "level": "Beginner",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
       "name": "React",
       "icon": "mdi:react",
       "level": "Expert",
@@ -183,8 +196,17 @@
       "keywords": [
         "Web Development",
         "Frontend",
-        "Backend",
-        "JavaScript Superset"
+        "Backend"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "icon": "simple-icons:javascript",
+      "level": "Expert",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend"
       ]
     },
     {
@@ -284,6 +306,16 @@
       ]
     },
     {
+      "name": "Pytest",
+      "icon": "simple-icons:pytest",
+      "level": "Beginner",
+      "keywords": [
+        "Python",
+        "Scripting",
+        "Testing"
+      ]
+    },
+    {
       "name": "Java",
       "icon": "ri:java-line",
       "level": "Expert",
@@ -300,16 +332,6 @@
       "level": "Intermediate",
       "keywords": [
         "PHP",
-        "Fullstack",
-        "Frontend"
-      ]
-    },
-    {
-      "name": "Vercel Functions",
-      "icon": "mdi:triangle",
-      "level": "Intermediate",
-      "keywords": [
-        "Server",
         "Fullstack",
         "Frontend"
       ]
