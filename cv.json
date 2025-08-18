@@ -3,12 +3,12 @@
   "pageLayout": "two-column",
   "basics": {
     "name": "Martin Truong",
-    "label": "Junior Software Engineer",
+    "label": "Software Engineer",
     "image": "/avatar.jpg",
     "opentoWork": true,
     "email": "martru118@proton.me",
     "url": "https://martru.vercel.app",
-    "summary": "A computer science graduate with over 1.5 years of work experience at various internships seeking opportunities to develop my career.",
+    "summary": "A computer science graduate with a proven track record of collaboration and results in projects with peers. Seeking opportunities to further develop my career.",
     "theme": "blue",
     "location": {
       "address": "Toronto",
@@ -43,7 +43,7 @@
       "area": "Bachelor of Science (Honours) - Computer Science, Data Science specialization",
       "studyType": "Full-time student",
       "startDate": "2018-09-04",
-      "endDate": "2024-12-20"
+      "endDate": "2025-06-05"
     }
   ],
   "work": [
