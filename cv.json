@@ -79,24 +79,22 @@
       "url": "https://vialab.ca/",
       "startDate": "2023-09-18",
       "endDate": "2024-04-19",
-      "summary": "Improved workflow for a data science research lab through various administrative and IT tasks.",
+      "summary": "Modernized existing layouts, resolving UI/UX bugs, and streamlined content workflows within the lab's WordPress website. Also assisted in research.",
       "responsibilities": [
-        "Responsible for maintaining and managing the lab's WordPress website, taking on a website administration role.",
-        "Wrote Python scripts with Pandas to assist a professor in cleaning and tabulating research data.",
-        "Collaborated with a colleague on the maintenance and testing of old research projects, fixing bugs, and ensuring that past projects run smoothly."
+        "Redesigned page layouts using WordPress CMS tools, improving usability and maintaining consistent branding.",
+        "Diagnosed and fixed UI/UX bugs, ensuring consistent and responsive frontend design.",
+        "Collaborated with the research and technical teams to manage structured content updates and version control of website components.",
+        "Wrote Python scripts with Pandas to assist researchers in cleaning and tabulating research data."
       ],
       "achievements": [
-        "Kept the website's PHP codebase up to date with the latest WordPress releases, adopting modern best practices and improving website security.",
-        "Fixed a JavaScript error that was causing Nginx to crash in a research project."
+        "Enhanced overall site performance and user experience, reduced interface inconsistencies, and improved the maintainability of the lab’s WordPress environment.",
+        "Improved workflow for research projects within the lab."
       ],
       "skills": {
         "WordPress": "ri:wordpress-fill",
         "Python": "mdi:language-python",
         "Pandas": "simple-icons:pandas",
-        "Jupyter Notebook": "simple-icons:jupyter",
-        "JavaScript": "simple-icons:javascript",
-        "Nginx": "simple-icons:nginx",
-        "PHP": "simple-icons:php"
+        "Jupyter Notebook": "simple-icons:jupyter"
       }
     },
     {
