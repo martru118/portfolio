@@ -102,20 +102,20 @@
       "position": "Full-stack Web Developer",
       "location_type": "Contract (full time)",
       "location": "Scarborough, ON",
-      "url": "https://dragonlubes.ca",
+      "url": "https://web.archive.org/web/20250901061313/https://www.dragonlubes.ca/",
       "startDate": "2022-04-18",
       "endDate": "2022-12-16",
-      "summary": "Independently built a full-stack e-commerce website for a local small business as part of contract work.",
+      "summary": "Independently built a full-stack e-commerce website for a local automotive chemical distributor as part of contract work.",
       "responsibilities": [
         "Developed the frontend in Next.js with React and Tailwind CSS.",
         "Developed the backend with TypeScript, React Query, and GraphQL connected to Shopify's Storefront API.",
-        "Onboarded staff on Shopify’s backend CMS to manage inventory."
+        "Implemented SEO using built-in Next.js libraries."
       ],
       "achievements": [
         "Successfully migrated their website from Google Sites to Vercel.",
         "Completely rebuilt and designed new layouts for the landing page and catalog.",
         "Built shopping cart components and implemented checkout webhooks to product pages.",
-        "Improved website SEO to become top Google search result."
+        "Secured the #1 Google search result for their company name within six months of website launch."
       ],
       "skills": {
         "Next.js": "ri:nextjs-line",
