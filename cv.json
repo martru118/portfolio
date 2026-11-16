@@ -3,12 +3,12 @@
   "pageLayout": "two-column",
   "basics": {
     "name": "Martin Truong",
-    "label": "Software Engineer",
+    "label": "Full Stack Software Engineer",
     "image": "/avatar.jpg",
     "opentoWork": true,
     "email": "martru118@proton.me",
     "url": "https://martru.vercel.app",
-    "summary": "A computer science graduate with a proven track record of collaboration and results in projects with peers. Seeking opportunities to further develop my career.",
+    "summary": "A full stack software engineer with over 2.5 years of professional experience. Passionate about turning ideas into reliable, easy-to-use products. Always looking for the next problem worth solving.",
     "theme": "blue",
     "location": {
       "address": "Toronto",
@@ -48,21 +48,55 @@
   ],
   "work": [
     {
+      "name": "K & A Consultants Limited",
+      "position": "Full Stack Software Engineer",
+      "location_type": "Hybrid",
+      "location": "Markham, ON",
+      "url": null,
+      "startDate": "2026-05-04",
+      "endDate": null,
+      "summary": "Developed and launched a full-stack meeting scheduling platform with Next.js and Typescript.",
+      "responsibilities": [
+        "Built a landing page, events listings catalog, meeting-booking workflow, and an administrative dashboard with React and Tailwind CSS.",
+        "Used Next.js server actions and Prisma to build an API layer with Postgres CRUD operations.",
+        "Implemented Google Calendar API integration to automatically generate calendar events after successful bookings."
+      ],
+      "achievements": [
+        "Converted designer-provided Canva mockups into responsive interfaces, delivering 10 core pages across desktop and mobile layouts.",
+        "Integrated stored user and event data to reliably manage over 25 meetings per week.",
+        "Eliminated manual calendar entry and reduced scheduling overhead by 80%."
+      ],
+      "skills": {
+        "Next.js": "ri:nextjs-line",
+        "React": "mdi:react",
+        "TypeScript": "simple-icons:typescript",
+        "Tailwind CSS": "mdi:tailwind",
+        "Node": "ri:nodejs-line",
+        "Prisma": "simple-icons:prisma",
+        "PostgreSQL": "simple-icons:postgresql",
+        "Clerk": "simple-icons:clerk",
+        "Git": "mdi:git",
+        "Vercel": "mdi:triangle",
+        "Google Cloud Platform": "mdi:google-cloud"
+      }
+    },
+    {
       "name": "Ontario Tech University",
       "position": "Teaching Assistant",
-      "location_type": "Full time",
+      "location_type": "On site",
       "location": "Oshawa, ON",
       "url": null,
       "startDate": "2024-09-16",
       "endDate": "2024-12-20",
-      "summary": "Led weekly lab sessions for a first year introductory Python course.",
+      "summary": "Led 12 weekly lab sessions for 35 first-year students in an introductory Python course.",
       "responsibilities": [
-        "Guided students through Python coding exercises and writing testing code with Pytest.",
-        "Held regular office hours to support students with course content, troubleshooting programming and version control challenges.",
-        "Graded and tested code for assignments and exams, providing detailed feedback to help students improve their coding skills and problem-solving abilities."
+        "Explained programming fundamentals and guided students through hands-on coding exercises.",
+        "Provided weekly office hours and one-on-one support, helping students troubleshoot programming and version control challenges.",
+        "Identified syntax, logic, and testing issues in assignment and exam submissions."
       ],
       "achievements": [
-        "Increased student engagement and improved exam performance."
+        "Helped students understand course concepts and develop structured problem-solving approaches.",
+        "Graded and tested over 300 submissions in total; delivered detailed feedback for each submission within 48 hours."
       ],
       "skills": {
         "Python": "mdi:language-python",
@@ -73,22 +107,23 @@
     },
     {
       "name": "Vialab",
-      "position": "Laboratory Coordinator",
-      "location_type": "Work study",
+      "position": "Frontend Developer",
+      "location_type": "On site",
       "location": "Oshawa, ON",
       "url": "https://vialab.ca/",
       "startDate": "2023-09-18",
       "endDate": "2024-04-19",
-      "summary": "Modernized existing layouts, resolving UI/UX bugs, and streamlined content workflows within the lab's WordPress website. Also assisted in research.",
+      "summary": "Modernized existing layouts, resolving UI/UX bugs, and streamlined content workflows within the lab's WordPress website. Also assisted in a research project.",
       "responsibilities": [
-        "Redesigned page layouts using WordPress CMS tools, improving usability and maintaining consistent branding.",
-        "Diagnosed and fixed UI/UX bugs, ensuring consistent and responsive frontend design.",
-        "Collaborated with the research and technical teams to manage structured content updates and version control of website components.",
-        "Wrote Python scripts with Pandas to assist researchers in cleaning and tabulating research data."
+        "Redesigned multiple reusable components and page layouts, improving usability and maintaining consistent branding.",
+        "Investigated and resolved 15 UI/UX defects using WordPress CMS tools.",
+        "Standardized content publishing workflows and collaborated with researchers to implement structured, consistent updates for newly published articles.",
+        "Wrote Python scripts with Pandas to clean and tabulate data from a CSV containing survey responses."
       ],
       "achievements": [
-        "Enhanced overall site performance and user experience, reduced interface inconsistencies, and improved the maintainability of the lab’s WordPress environment.",
-        "Improved workflow for research projects within the lab."
+        "Created a more intuitive and professional online experience that effectively showcased the work of 12 researchers and 10 monthly recurring content updates.",
+        "Validated fixes on desktop and mobile breakpoints to improve consistency across user-facing and admin site sections.",
+        "Contributed to a research project analyzing Ontario Tech students' usage of language learning apps when learning Italian."
       ],
       "skills": {
         "WordPress": "ri:wordpress-fill",
@@ -99,23 +134,21 @@
     },
     {
       "name": "Dragon Lubes",
-      "position": "Full-stack Web Developer",
-      "location_type": "Contract (full time)",
+      "position": "Full Stack Web Developer",
+      "location_type": "On site",
       "location": "Scarborough, ON",
       "url": "https://web.archive.org/web/20250901061313/https://www.dragonlubes.ca/",
-      "startDate": "2022-04-18",
+      "startDate": "2022-01-10",
       "endDate": "2022-12-16",
-      "summary": "Independently built a full-stack e-commerce website for a local automotive chemical distributor as part of contract work.",
+      "summary": "Independently designed, built, and deployed a full-stack e-commerce storefront for a local automotive chemical distributor.",
       "responsibilities": [
-        "Developed the frontend in Next.js with React and Tailwind CSS.",
-        "Developed the backend with TypeScript, React Query, and GraphQL connected to Shopify's Storefront API.",
-        "Implemented SEO using built-in Next.js libraries."
+        "Designed and developed new layouts for the landing page, catalog, and product pages in Next.js with React and Tailwind CSS.",
+        "Used TypeScript, React Query, and GraphQL for client-side data fetching through Shopify's Storefront API."
       ],
       "achievements": [
-        "Successfully migrated their website from Google Sites to Vercel.",
-        "Completely rebuilt and designed new layouts for the landing page and catalog.",
-        "Built shopping cart components and implemented checkout webhooks to product pages.",
-        "Secured the #1 Google search result for their company name within six months of website launch."
+        "Successfully replaced the store's Google Sites presence with a production platform hosted on Vercel.",
+        "Integrated Shopify product and cart data to implement shopping cart functionality and checkout flows on product pages.",
+        "Supported approximately $30k in online sales during Q4 2022."
       ],
       "skills": {
         "Next.js": "ri:nextjs-line",
@@ -388,11 +421,10 @@
         "position": "container"
       },
       "isActive": true,
-      "description": "A full-stack web application that allows for live, translated transcriptions with uses in a wide variety of settings. Developed at QHacks 2022.",
+      "description": "A full-stack web application that allows for live translation of recorded audio transcriptions with uses in a wide variety of settings. Developed at QHacks 2022.",
       "highlights": [
-        "Frontend built with React and React Router",
-        "Backend built with Python connected to AssemblyAI and Google Translate API",
-        "WebSockets connect frontend to backend",
+        "AssemblyAI converts recorded audio to text; Python script translates text",
+        "WebSockets send translated text to be rendered in a React frontend",
         "🏆 Won 4th place out of 75+ teams and two awards"
       ],
       "url": "https://devpost.com/software/iris-nu91m0",
